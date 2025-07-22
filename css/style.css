@@ -24,6 +24,7 @@ button {
 .basic .extra {
 	display: none;
 }
+
 .advanced .extra {
 	display: initial;
 }
@@ -43,13 +44,14 @@ button {
 #info-bar>span {
 	padding: 0 3px;
 	white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
+	text-overflow: ellipsis;
+	overflow: hidden;
 }
 
 #info>span {
 	margin-right: 50px;
 }
+
 #info>span>span:first-child {
 	color: #CCCCCC;
 	margin-right: 8px;
@@ -81,10 +83,12 @@ button {
 	height: 100%;
 	text-align: center;
 }
+
 #bottom-bar a:hover {
 	background: #000050;
 	color: #A9A9E2;
 }
+
 #toggle-advanced {
 	width: 95px;
 }
@@ -94,6 +98,9 @@ button {
 	height: 100%;
 	overflow: auto;
 	box-sizing: border-box;
+}
+
+#player-and-controls {
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -106,6 +113,7 @@ button {
 	height: 360px;
 	padding-bottom: 10px;
 }
+
 #player-size {
 	min-width: 640px;
 	max-width: 640px;
@@ -117,12 +125,6 @@ button {
 #controls-container label,
 #controls-container button {
 	margin-left: 20px;
-}
-
-#playback-controls {
-	display: flex;
-	align-items: center;
-	display: none;
 }
 
 #play-pause {
@@ -163,10 +165,12 @@ span#volume-number {
 	display: flex;
 	align-items: center;
 }
+
 #connection-controls label {
 	display: flex;
 	font-size: 20px;
 }
+
 #connection-controls input {
 	margin-left: 4px;
 }
@@ -174,9 +178,11 @@ span#volume-number {
 #comm-button {
 	width: 140px;
 }
+
 #bot-host {
 	width: 70px;
 }
+
 #bot-port {
 	width: 50px;
 }
@@ -256,6 +262,7 @@ span#volume-number {
 .tag-table-require {
 	background: #00AA00;
 }
+
 #inner-tag-table .tag-table-require:hover {
 	background: #22FF44;
 }
@@ -263,6 +270,7 @@ span#volume-number {
 .tag-table-exclude {
 	background: #EE0000;
 }
+
 #inner-tag-table .tag-table-exclude:hover {
 	background: #FF7788;
 }
@@ -270,6 +278,7 @@ span#volume-number {
 .tag-table-include {
 	background: #80B0FF;
 }
+
 #inner-tag-table .tag-table-include:hover {
 	background: #A0F0FF;
 }
@@ -277,12 +286,14 @@ span#volume-number {
 .tag-table-ignore {
 	background: gold;
 }
+
 #inner-tag-table .tag-table-ignore:hover {
 	background: #FFFF80;
 }
 
 
-#tag-controls, #extra-controls {
+#tag-controls,
+#extra-controls {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -290,19 +301,19 @@ span#volume-number {
 }
 
 #extra-controls {
-    margin-top: 0.5em;
+	margin-top: 0.5em;
 }
 
-#tag-controls button, #extra-controls button {
+#tag-controls button,
+#extra-controls button {
 	font-size: 17px;
 }
 
 #hidden-import-preferences {
-    display: none;
+	display: none;
 }
 
 #debug-log {
-	outline: 1px solid black;
 	font-size: 16px;
 	padding: 2px;
 	width: 100%;
